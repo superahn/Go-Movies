@@ -1,0 +1,20 @@
+1320107817TS---><html>
+<head>
+	<title>Create a news item - CodeIgniter 2 Tutorial</title>
+</head>
+<body>
+	<h1>CodeIgniter 2 Tutorial</h1><h2>Create a news item</h2>
+
+
+<form action="http://localhost/ci/index.php/news/create" method="post" accept-charset="utf-8">
+	<label for="title">Title</label> 
+	<input type="input" name="title" /><br />
+
+	<label for="text">Text</label>
+	<textarea name="text"></textarea><br />
+	
+	<input type="submit" name="submit" value="Create news item" /> 
+
+</form><strong>&copy; 2011</strong>	
+</body>
+</html>

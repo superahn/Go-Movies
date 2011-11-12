@@ -1,0 +1,31 @@
+.movie h3, .movie p {
+	margin: 0;
+	padding: 0;
+}
+
+.movie h3 {
+	white-space: normal;
+}
+
+section.overview {
+	width: 100%;
+}
+
+section.overview  > div.poster {
+	float: left;
+	width: 95px;
+}
+
+section.overview > div .mainInfo {
+	float: left;
+	width: 225px;
+}
+
+div.clear {
+	clear: both;
+}
+
+section.photos {
+	border-top: 1px solid #7F7F7F;
+	border-bottom: 1px solid #7F7F7F;
+}
