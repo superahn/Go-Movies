@@ -1,7 +1,11 @@
 Mobile Web App Project
 ----------------------
 
+<<<<<<< HEAD
 Go Movies is a personal portfolio project to show how to make an Web App with jQuery Mobile. This Web Application will use 3rd party movie databases which are TMDB and Rotten Tomatoes API. 
+=======
+Go Movies is a personal portfolio project to show how to make an Web App with jQuery Mobile. This Web Application will 3rd party movie databases which are TMDB and Rotten Tomatoes API. 
+>>>>>>> 5fa9de2c8a469e646c5267a0e81340273d4e304d
 
 This document is going to be updated regularly. 
  
