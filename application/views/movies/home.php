@@ -1,4 +1,4 @@
-<script type="application/javascript" src="<?php echo base_url('scripts/iScroll/iscroll.js')?>"></script>
+<script type="application/javascript" src="<?php echo base_url() ?>scripts/iScroll/iscroll.js"></script>
 <script type="text/javascript">
 	var movieScroll;
 	var openningScroll;
