@@ -37,15 +37,10 @@
 | in the URL cannot be matched to a valid route.
 |
 */
-$route['movies'] = 'movies/home';	// default action
+//$route['movie'] = 'movie/home';	// default action
 
-$route['news/create'] = 'news/create';
-$route['news/(:any)'] = 'news/view/$1';
-$route['news'] = 'news';
-/*
-$route['(:any)'] = 'pages/view/$1';
-$route['default_controller'] = "pages/view";
-*/
+//$route['(:any)'] = '$1';
+$route['default_controller'] = "movie/boxoffice";
 
 
 /* End of file routes.php */
