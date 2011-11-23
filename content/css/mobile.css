@@ -1,31 +1,80 @@
-.movie h3, .movie p {
-	margin: 0;
-	padding: 0;
-}
-
-.movie h3 {
+/*
+ * Common for Lists
+ */
+.text-wrap {
 	white-space: normal;
 }
 
-section.overview {
-	width: 100%;
+/*
+ * Box Office List
+ */
+/* make thumb smaller */
+/* less padding to make li smaller */
+/* Title text */
+#poster_thumb .ui-li .ui-btn-inner a.ui-link-inherit, 
+#poster_thumb .ui-li-static.ui-li {
+	padding: 0 5px 0 5px;
+	display: block;
 }
 
-section.overview  > div.poster {
-	float: left;
-	width: 95px;
+#poster_thumb .ui-li-heading {
+	margin: .2em 0 .4em;
 }
 
-section.overview > div .mainInfo {
-	float: left;
-	width: 225px;
+#poster_thumb .ui-li-desc {
+	font-size: 14px;
 }
 
+#poster_thumb .ui-li-thumb, 
+#poster_thumb .ui-listview .ui-li-icon {
+	max-width: 60px;
+	max-height: 60px;
+}
+
+/* make spaces lesser between thumb and text */
+#poster_thumb .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit {
+	padding-left: 50px;
+}
+
+/*
+ * Movie Info
+ */
+/* less padding to make li smaller */
+#poster_profile .ui-li .ui-btn-inner a.ui-link-inherit, 
+#poster_profile .ui-li-static.ui-li {
+	padding: 0 5px 0 5px;
+	display: block;
+}
+
+#poster_profile .ui-li-heading {
+	margin: .4em;
+}
+
+#poster_profile .ui-li-desc {
+	margin: .4em;
+	font-size: 14px;
+}
+
+/* list height should be taller than image height */
+#poster_profile .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit, 
+#poster_profile.ui-li-static.ui-li-has-thumb {
+	min-height: 100px;
+}
+
+/* make thumb smaller */
+#poster_profile .ui-li-thumb, #poster_profile .ui-listview .ui-li-icon {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+/* make spaces lesser between thumb and text */
+#poster_profile .ui-li-has-thumb .ui-btn-inner a.ui-link-inherit {
+	padding-left: 75px;
+}
+ 
+/*
+ * ETC
+ */ 
 div.clear {
 	clear: both;
-}
-
-section.photos {
-	border-top: 1px solid #7F7F7F;
-	border-bottom: 1px solid #7F7F7F;
 }
