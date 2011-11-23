@@ -1,13 +1,14 @@
 Mobile Web App Project
 ----------------------
 
-This project is still in development and This document is going to be updated regularly. 
+This project is still in development and this document is going to be updated regularly. 
 
 'Go Movies' is a personal portfolio project to show how to make an Web App with jQuery Mobile. This Web Application will use 3rd party movie databases which are TMDB and Rotten Tomatoes API. 
 
 PHP 5.3
 CodeIgniter 2.0.3
-jQuery Mobile 1.0 rc2
+jQuery Mobile 1.0 rc3
+iScroll 4
 
 by SuperAhn
 
