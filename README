@@ -3,13 +3,19 @@ Mobile Web App Project
 
 This project is still in development and this document is going to be updated regularly. 
 
-'Go Movies' is a personal portfolio project to show how to make an Web App with jQuery Mobile. This Web Application will use 3rd party movie databases which are TMDB and Rotten Tomatoes API. 
+'Go Movies' is a personal portfolio project to show how to make an Web App with jQuery Mobile. This Web Application uses Rotten Tomatoes API which is for users to query movie databases. 
 
 PHP 5.3
 CodeIgniter 2.0.3
 jQuery Mobile 1.0 rc3
 iScroll 4
+Rotten Tomatoes API
 
+1) Get your API key from Rotten Tomatoes developer site. Follow the instructions on the http://developer.rottentomatoes.com/
+2) Edit application/config/movie_settings.php with your API key.
+   $config['api_key'] = 'rotten_tomatoes_api_key';
+   
+   
 by SuperAhn
 
 
